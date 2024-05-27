@@ -41,7 +41,7 @@ const RadioGroups = () => {
     return (
         <>
             <Typography variant='h3' component={"h3"} className='bg-black text-fuchsia-50 p-3' >RadioGroup</Typography>
-            <div className='flex flex-wrap gap-6'>
+            <div className='flex flex-wrap gap-6 p-4'>
                 <div>
                     <FormControl>
                         <FormLabel id="demo-radio-buttons-group-label">Gender</FormLabel>

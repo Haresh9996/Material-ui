@@ -24,7 +24,7 @@ const Buttons = () => {
     return (
         <>
             <Typography variant='h3' component={"h3"} className='bg-black text-fuchsia-50 p-3' >Buttons</Typography>
-            <div className='flex flex-wrap gap-6'>
+            <div className='flex p-4 flex-wrap gap-6'>
                 <div>
                     <h5>Basic Text Buttons</h5>
                     <Button>Primary</Button>

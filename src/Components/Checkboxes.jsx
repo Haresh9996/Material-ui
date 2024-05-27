@@ -6,7 +6,7 @@ const Checkboxes = () => {
     return (
         <>
             <Typography variant='h3' component={"h3"} className='bg-black text-fuchsia-50 p-3' >CheckBox</Typography>
-            <div className='flex flex-wrap gap-6'>
+            <div className='flex flex-wrap gap-6 p-4'>
                 <div>
                     <Checkbox icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
                 </div>

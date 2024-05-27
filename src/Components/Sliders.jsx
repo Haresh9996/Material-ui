@@ -9,6 +9,7 @@ function valuetext(value) {
 const Sliders = () => {
     const [checkVal, setCheckVal] = useState('')
     const [value, setValue] = useState(30);
+    const [range, setRange] = useState([40, 70])
 
     const getValue = (e, val) => {
         setCheckVal(val)
@@ -17,6 +18,10 @@ const Sliders = () => {
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
+
+    const getRange = (e, val) => {
+        setRange(val)
+    }
     const mark = [
         {
             value: 10,
@@ -31,7 +36,7 @@ const Sliders = () => {
         <>
             <Typography variant='h3' component={"h3"} className='bg-black text-fuchsia-50 p-3' >Slider</Typography>
 
-            <div className='flex flex-wrap gap-6'>
+            <div className='flex flex-wrap gap-6 p-4'>
                 <div>
                     <Box sx={{ width: 200 }}>
                         <Stack spacing={2} direction="row" sx={{ mb: 1 }} alignItems="center">
@@ -63,13 +68,18 @@ const Sliders = () => {
                         <Slider defaultValue={30} valueLabelDisplay='on' step={10} marks={mark} min={10} max={110} disabled />
                     </Box>
                 </div>
-                <div>
+                <div className='my-6'>
                     <h5>controlled & vertical</h5>
                     <Box sx={{ height: 300 }}>
                         <Slider orientation='vertical' value={checkVal} valueLabelDisplay='auto' step={10} marks={mark} min={10} max={110} onChange={getValue} />
                         <Typography variant='p'> Value is: {checkVal}</Typography>
                     </Box>
-
+                </div>
+                <div className='my-6'>
+                    <h5>Range Slider</h5>
+                    <Box sx={{ width: 300 }}>
+                        <Slider value={range} valueLabelDisplay='auto' step={10} marks={mark} min={10} max={110} onChange={getRange} />
+                    </Box>
                 </div>
             </div>
         </>

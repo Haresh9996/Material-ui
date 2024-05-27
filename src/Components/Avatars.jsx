@@ -9,7 +9,7 @@ const Avatars = () => {
     return (
         <>
         <Typography variant='h3' component={"h3"} className='bg-black text-fuchsia-50 p-3 my-3' >Avatar</Typography>
-            <div className='flex flex-wrap gap-6'>
+            <div className='flex flex-wrap gap-6 p-4'>
                 <div>
                     <h5>Image Avatars</h5>
                     <Stack direction="row" spacing={1}>
