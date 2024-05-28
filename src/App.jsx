@@ -35,45 +35,45 @@ function App() {
     <>
       {/* inputs */}
 
-      {/* <Buttons />
+      <Buttons />
       <Checkboxes />
       <FloatingActionButtons />
-      <RadioGroups /> */}
+      <RadioGroups />
 
       {/* <Ratings /> */}
 
-      {/* <Selecter />
+      <Selecter />
       <Sliders />
       <Swithches />
-      <TextFields /> */}
+      <TextFields />
 
       {/* Data display */}
-      {/* <Avatars />
+      <Avatars />
       <Badges />
       <Chips />
       <Tables />
-      <Tooltips /> */}
+      <Tooltips />
 
 
       {/* Feedbacks */}
-      {/* <Alerts />
+      <Alerts />
       <Dialogs />
       <Progresses />
       <Skeletons />
-      <Snackbars /> */}
+      <Snackbars />
 
       {/* Surfaces */}
-      {/* <Accordions />
+      <Accordions />
       <AppBars />
-      <Cards /> */}
+      <Cards />
 
       {/* Navigations */}
-      {/* <BottomNavigations />
+      <BottomNavigations />
       <BreadCrumbs />
       <Drawers />
-      <Menus /> */}
-      {/* <Paginations /> */}
-      {/* <SpeedDials /> */}
+      <Menus />
+      <Paginations />
+      <SpeedDials />
       <Tabses />
     </>
   )
