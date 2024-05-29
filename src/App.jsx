@@ -13,8 +13,11 @@ import Chips from './Components/Chips'
 import Dialogs from './Components/Dialogs'
 import Drawers from './Components/Drawers'
 import FloatingActionButtons from './Components/FloatingActionButtons'
+import ImageLists from './Components/ImageLists'
 import Menus from './Components/Menus'
+import Modals from './Components/Modals'
 import Paginations from './Components/Paginations'
+import PopOvers from './Components/PopOvers'
 import Progresses from './Components/Progresses'
 import RadioGroups from './Components/RadioGroups'
 import Ratings from './Components/Ratings'
@@ -23,6 +26,7 @@ import Skeletons from './Components/Skeletons'
 import Sliders from './Components/Sliders'
 import Snackbars from './Components/Snackbars'
 import SpeedDials from './Components/SpeedDials'
+import Stapers from './Components/Stapers'
 import Swithches from './Components/Swithches'
 import Tables from './Components/Tables'
 import Tabses from './Components/Tabses'
@@ -39,9 +43,7 @@ function App() {
       <Checkboxes />
       <FloatingActionButtons />
       <RadioGroups />
-
-      {/* <Ratings /> */}
-
+      <Ratings />
       <Selecter />
       <Sliders />
       <Swithches />
@@ -75,6 +77,12 @@ function App() {
       <Paginations />
       <SpeedDials />
       <Tabses />
+      <Stapers />
+
+      {/* Layout */}
+      <ImageLists />
+      <Modals />
+      <PopOvers />
     </>
   )
 }
